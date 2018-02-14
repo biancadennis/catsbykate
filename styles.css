@@ -1,0 +1,9 @@
+@tailwind preflight;
+
+@tailwind utilities;
+
+@responsive {
+    .bg-gradient-blue-to-purple {
+      background-image: linear-gradient(to right, config('colors.pink-dark'), config('colors.purple-dark'));
+    }
+  }
