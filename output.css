@@ -4486,7 +4486,13 @@ button,
 }
 
 .bg-gradient-blue-to-purple {
-  background-image: linear-gradient(to right, #eb5286, #794acf);
+  background-image: linear-gradient(to right, #2779bd, #51d88a);
+}
+
+.header {
+  background-image: url('public/images/cats.jpeg');
+  width: 100%;
+  background-size: 100% 100vh;
 }
 
 @media (min-width: 576px) {
@@ -8360,7 +8366,7 @@ button,
   }
 
   .sm\:bg-gradient-blue-to-purple {
-    background-image: linear-gradient(to right, #eb5286, #794acf);
+    background-image: linear-gradient(to right, #2779bd, #51d88a);
   }
 }
 
@@ -12235,7 +12241,7 @@ button,
   }
 
   .md\:bg-gradient-blue-to-purple {
-    background-image: linear-gradient(to right, #eb5286, #794acf);
+    background-image: linear-gradient(to right, #2779bd, #51d88a);
   }
 }
 
@@ -16110,7 +16116,7 @@ button,
   }
 
   .lg\:bg-gradient-blue-to-purple {
-    background-image: linear-gradient(to right, #eb5286, #794acf);
+    background-image: linear-gradient(to right, #2779bd, #51d88a);
   }
 }
 
@@ -19985,6 +19991,6 @@ button,
   }
 
   .xl\:bg-gradient-blue-to-purple {
-    background-image: linear-gradient(to right, #eb5286, #794acf);
+    background-image: linear-gradient(to right, #2779bd, #51d88a);
   }
 }
