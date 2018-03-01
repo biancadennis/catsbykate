@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="output.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> -->
-    <title>CatsByKate</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="output.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> -->
+	<title>CatsByKate</title>
 </head>
 <body>
-    <nav class="flex items-center justify-between flex-wrap bg-gradient-blue-to-purple p-6 pin-t">
-        <div class="flex items-center flex-no-shrink text-white mr-6">
-            <span class="font-semibold text-xl tracking-tight">Cats By Kate</span>
-        </div>
-        <div class="block lg:hidden">
-            <button class="flex items-center px-3 py-2 border rounded text-blue-lightest border-teal-light hover:text-white hover:border-white">
-            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-            </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto ">
-            <div class="text-sm lg:flex-grow">
-                <a href="#responsive-header" class="block mt-4 inline-block lg:mt-0 text-blue-lightest hover:text-grey-darker mr-4">
-                    Services
-                </a>
-                <a href="#responsive-header" class="block mt-4 inline-block lg:mt-0 text-blue-lightest hover:text-grey-darker mr-4">
-                    Contact
-                </a>
-            </div>
-        </div>
-    </nav>
-    <!-- Photo of Cat Div -->
-    <div class='header text-blue-lightest bg-cover flex flex-col justify-center min-h-screen'>
-        <div class="pt-8 text-2xl text-center">Your cats are more than pets.... they're family</div>
-        <div class="pt-8 text-2xl text-center">Leave them with someone with over 10 years of experience with cats</div>
-        <div class="pt-8 text-2xl font-extrabold text-center">They're in good hands with Kate</div>
-        <div class=" pb-8 pt-8 text-center">
-            <button class="bg-grey-dark hover:bg-grey-darkest text-blue-lightest font-semibold py-2 px-4 rounded shadow">
-                Learn More
-            </button>
-        </div>
-    </div>
-    <!-- About Div -->
-    <div></div>
-    <!-- Contact Div -->
-    <div></div>    
+<nav class="flex items-center justify-between flex-wrap bg-gradient-blue-to-purple p-6 pin-t">
+	<div class="flex items-center flex-no-shrink text-white mr-6">
+		<span class="font-semibold text-xl tracking-tight">Cats By Kate</span>
+	</div>
+</nav>
+<!-- Photo of Cat Div -->
+<div style="background-image: url('public/images/cats.jpeg')" class="header text-blue-lightest bg-cover flex flex-col min-h-screen">
+	<div class="pt-8 lg:text-3xl text-center">Your cats are more than pets.... they're family</div>
+	<div class="pt-8 lg:text-3xl font-extrabold text-center">Leave them with someone with over 10 years of experience with cats</div>
+	<div class="pt-8 lg:text-3xl text-center">They're in good hands with Kate</div>
+	<div class="pb-8 pt-8 text-center">
+		<button class="bg-grey-dark hover:bg-grey-darkest text-blue-lightest font-semibold py-2 px-4 rounded shadow">
+			Learn More
+		</button>
+	</div>
+	<div>
+		<!--<button class="bg-grey-dark hover:bg-grey-darkest text-blue-lightest font-semibold py-2 px-4 rounded shadow">-->
+		<!--Services-->
+		<!--</button>-->
+		<!--<button class="bg-grey-dark hover:bg-grey-darkest text-blue-lightest font-semibold py-2 px-4 rounded shadow">-->
+		<!--Contact-->
+		<!--</button>-->
+	</div>
+</div>
+<!-- Services Div -->
+<div class="header text-blue-lightest min-h-screen flex flex-col justify-center items-center p-8" style="background-image: url('public/images/another.jpg')">
+	<div class="text-grey-lightest font-bold text-3xl mb-2">Services</div>
+	<div class="text-grey-lightest font-semibold mb-2">All visits include feeding and litterbox cleaning. Packages include twice daily visits.</div>
+	<div class="max-w-md">
+		<div class="shadow-md opacity-75 bg-purple-lightest rounded-b lg:rounded-b-none lg:rounded-r p-2 mb-4 flex flex-col justify-between leading-normal">
+			<div class="mb-8">
+				<p class="text-sm text-grey-dark flex items-center">
+					$25
+				</p>
+				<div class="text-black font-bold text-xl mb-2">Pay As You Go</div>
+				<p class="text-grey-darker text-base">Pay as you go at a rate of $25 per visit. Buy 10 visits from Kate and receive a free visit for being a loyal customer</p>
+			</div>
+		</div>
+		<div>
+			<div class="shadow-md opacity-75 bg-grey-lightest rounded-b lg:rounded-b-none lg:rounded-r p-2 mb-4 flex flex-col justify-between leading-normal">
+				<div class="mb-8">
+					<p class="text-sm text-grey-dark flex items-center">
+						$100
+					</p>
+					<div class="text-black font-bold text-xl mb-2">Weekend Getaway Package</div>
+					<p class="text-grey-darker text-base">Pre-purchase five visits for your weekend getaway at the price of four.</p>
+				</div>
+			</div>
+			<div>
+				<div class="shadow-md opacity-75 bg-purple-lightest rounded-b lg:rounded-b-none lg:rounded-r p-2 flex flex-col justify-between leading-normal">
+					<div class="mb-8">
+						<p class="text-sm text-grey-dark flex items-center">
+							$250
+						</p>
+						<div class="text-black font-bold text-xl mb-2">Vacation Package</div>
+						<p class="text-grey-darker text-base">Pre-purchase 14 visits for your week-long vacation at the price of 10. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Div -->
+		<div></div>
 </body>
 </html>

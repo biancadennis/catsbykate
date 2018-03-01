@@ -10,7 +10,9 @@
   }
 
   .header {
-      background-image: url('public/images/cats.jpeg');
       width: 100%;
       background-size:100% 100vh;
 }
+  body {
+      font-family: "Big Caslon";
+  }
