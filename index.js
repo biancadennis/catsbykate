@@ -1,3 +1,7 @@
 $( document ).ready(function() {
-	console.log( "ready!" );
+	$("#button").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#services").offset().top
+		}, 2000);
+	});
 });
